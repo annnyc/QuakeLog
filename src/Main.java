@@ -14,7 +14,7 @@ public class Main {
             parser.parseFile("../quake.log");
             List<Game> games = parser.getGames();
             Map<String, Object> result = new HashMap<>();
-            for (int i = 0; i < games.size(); i++) {
+            for (int i = 0; i < games.size(); i++; game.getKills > 0) {
                 Game game = games.get(i);
                 Map<String, Object> gameData = new HashMap<>();
                 gameData.put("total_kills", game.getTotalKills());
